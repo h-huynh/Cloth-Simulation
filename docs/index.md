@@ -31,9 +31,13 @@ The source code is available for download [here](https://github.com/h-huynh/Clot
 
 https://user-images.githubusercontent.com/92998394/138494640-8bd696ce-d93d-48be-a726-ce1b47528ae3.mp4
 
+Demonstrating the cloth springs. 
+
 ### Textured cloth
 
 https://user-images.githubusercontent.com/92998394/138494664-d3308212-2935-421c-af93-27b242c2eb8f.mp4
+
+Adding texture to the cloth and removing linestrokes.
 
 ### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
