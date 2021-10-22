@@ -29,15 +29,15 @@ The source code is available for download [here](https://github.com/h-huynh/Clot
 
 ### Cloth without texture
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_Q1cTTiUKx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://user-images.githubusercontent.com/92998394/138494640-8bd696ce-d93d-48be-a726-ce1b47528ae3.mp4
 
 ### Textured cloth
 
-{% include youtubePlayer.html id=page.53tUS3384AQ %}
+https://user-images.githubusercontent.com/92998394/138494664-d3308212-2935-421c-af93-27b242c2eb8f.mp4
 
 ### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
-{% include youtubePlayer.html id=page.9VKu5EA2pZI %}
+https://user-images.githubusercontent.com/92998394/138494679-7aa90472-3cd9-4f23-9a54-602b8b3599b1.mp4
 
 ## Credit
 
