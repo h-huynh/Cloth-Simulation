@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Cloth Simulation
+A project by Henry Huynh (huynh407@umn.edu) / (henryh1404@gmail.com)
 
-You can use the [editor on GitHub](https://github.com/h-huynh/Cloth-Simulation/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## About
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A project for _CSCI 5611: Animation and Planning in Games_. The directive was to use numerical integration techniques to simulate physical-systems that follow well-known rules. Particularly, the simulation of a cloth using nodes (particles) and an interconnected system of springs.
 
-### Markdown
+The code is currently written in a data-oriented manner. This is mainly for performance reasons, but could be easily rewritten in a more object-oriented fashion by splitting the cloth into node and spring objects.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The system is currently initialized with a total of one hundred nodes (10x10). For each node, a position, velocity, and acceleration is stored. A spring force is currently generated across all horizontal and vertical neighbors.
 
-```markdown
-Syntax highlighted code block
+There are a number of adjustable parameters that can completely change how the simulation runs. They are currently set to a stable and effective amount.
+- spring constant and scaling dampening force
+- coefficient of restitution (how much the nodes bounce off the sphere)
+- resting length vs initial length
+- gravity vector
+- node mass
+- timestep
 
-# Header 1
-## Header 2
-### Header 3
+On each update, the new velocities are saved for the entire system before they are then used to update the positions.
 
-- Bulleted
-- List
+The overall system is rendered in 3D and is set to collide with a sphere. The Peasy camera library is utilized for a free view camera.
 
-1. Numbered
-2. List
+## Code
 
-**Bold** and _Italic_ and `Code` text
+The source code is available for download [here](https://github.com/h-huynh/Cloth-Simulation).
 
-[Link](url) and ![Image](src)
-```
+## Media
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Cloth without texture
 
-### Jekyll Themes
+### Textured cloth
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/h-huynh/Cloth-Simulation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
-### Support or Contact
+## Credit
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For the camera, the [Peasy camera library](http://mrfeinberg.com/peasycam/) was used.
+
+Textures:
+- [Sun](https://www.123rf.com/photo_70124417_abstract-yellow-background-texture.html)
+- [Cloth](https://arstechnica.com/science/2019/04/what-starry-night-has-in-common-with-gassy-clouds-where-stars-are-born/)
+
+
