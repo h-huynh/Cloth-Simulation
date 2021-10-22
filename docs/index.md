@@ -33,17 +33,23 @@ https://user-images.githubusercontent.com/92998394/138494640-8bd696ce-d93d-48be-
 
 Demonstrating the cloth springs. 
 
+[youtube link](https://youtu.be/_Q1cTTiUKx4)
+
 ### Textured cloth
 
 https://user-images.githubusercontent.com/92998394/138494664-d3308212-2935-421c-af93-27b242c2eb8f.mp4
 
 Adding texture to the cloth and removing linestrokes.
 
+[youtube link](https://youtu.be/53tUS3384AQ)
+
 ### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
 https://user-images.githubusercontent.com/92998394/138494679-7aa90472-3cd9-4f23-9a54-602b8b3599b1.mp4
 
 The pointLight is stored at the center of the sphere's position creating an interesting visual effect.
+
+[youtube link](https://youtu.be/9VKu5EA2pZI)
 
 ## Credit
 
