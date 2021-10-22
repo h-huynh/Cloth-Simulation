@@ -33,11 +33,11 @@ The source code is available for download [here](https://github.com/h-huynh/Clot
 
 ### Textured cloth
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=page.53tUS3384AQ %}
 
 ### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=page.9VKu5EA2pZI %}
 
 ## Credit
 
