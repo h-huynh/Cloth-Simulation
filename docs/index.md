@@ -9,7 +9,7 @@ The code is currently written in a data-oriented manner. This is mainly for perf
 
 The system is currently initialized with a total of one hundred nodes (10x10). For each node, a position, velocity, and acceleration is stored. A spring force is currently generated across all horizontal and vertical neighbors.
 
-There are a number of adjustable parameters that can completely change how the simulation runs. They are currently set to a stable and effective amount.
+There are a number of adjustable parameters that can change how the simulation runs. They are currently set to a stable and effective amount.
 - spring constant and scaling dampening force
 - coefficient of restitution (how much the nodes bounce off the sphere)
 - resting length vs initial length
@@ -38,6 +38,8 @@ https://user-images.githubusercontent.com/92998394/138494664-d3308212-2935-421c-
 ### Adding a pointlight - van Gogh makes the sun disappear [possible art submission]
 
 https://user-images.githubusercontent.com/92998394/138494679-7aa90472-3cd9-4f23-9a54-602b8b3599b1.mp4
+
+The pointLight is stored at the center of the sphere's position creating an interesting visual effect.
 
 ## Credit
 
